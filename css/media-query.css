@@ -19,8 +19,15 @@
         }
         #Home .content .btn{
               padding: 13px 15px;
-
         }
+     #What-We-Do .shape .img{
+     height: 20px;
+}
+ .shape,
+  #What-We-Do img {
+    height: 300px;
+  }
+        
 }
 @media screen and (max-width:992px){
      #Home .row{
@@ -64,6 +71,21 @@
   .none{
     display: none;
   }
+  #OUR-GAMES h2{
+    font-size: 36px;
+    line-height: 40px;
+   }
+   #Our-Team {
+      padding: 20px 0;
+   }
+ 
+   #What-We-Do h2,
+   #What-We-Do h3,
+   #Contact-Us h2{
+    font-size: 36px;
+    line-height: 40px;
+   }
+   
 }
 @media screen and (max-width:440px){
         #Home .content h1{
@@ -85,5 +107,25 @@
    padding: 4px 10px;
    left: -10px;
 }
+
+    #What-We-Do h2,
+   #What-We-Do h3,
+   #OUR-GAMES h2,
+   #Our-Team h2,
+   #Contact-Us h2{
+   font-size: 25px;
+    line-height: 30px;
+   }
+   .contact-info .box i{
+   width: 40px;
+   height: 40px;
+   font-size: 14px;
+   }
+   #Contact-Us p{
+     font-size: 14px;
+       
+   #Contact-Us .form .name {
+      display: block;
+   }
 }
 
