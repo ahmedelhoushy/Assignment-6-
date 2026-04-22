@@ -1,0 +1,89 @@
+@media screen and (max-width:1024px){
+    #Home{
+        height: auto;
+    }
+   #Home .row{
+       gap: 50px;
+       
+     }
+      
+    #Home .content h1{
+        font-size: 40px;
+        width: 100%;
+        text-align: center;
+     line-height: 60px;  
+     }
+        #Home .content p{
+            text-align: center;
+            width: 90%;
+        }
+        #Home .content .btn{
+              padding: 13px 15px;
+
+        }
+}
+@media screen and (max-width:992px){
+     #Home .row{
+        flex-direction: column;
+        text-align: center;
+       
+     }
+       #Home .content{
+        width: 80%;
+        margin: auto;
+       }
+    #Home .content h1{
+        font-size: 48px;
+        line-height: 40px;  
+     }
+     #Home .content p{
+            text-align: center;
+            width: 90%;
+        }
+
+}
+@media screen and (max-width:768px){
+     #Home .content h1{
+        font-size: 36px;
+        line-height: 40px;  
+     }
+       #Home .content{
+        width: 100%;
+        margin: auto;
+       }
+ #Home .active-img{
+   padding: 8px 15px;
+   left: -10px;
+}
+ #Home .active-img i{
+    font-size: 14px;
+ }
+  #Home .active-img h3{
+    font-size: 16px;
+  }
+  .none{
+    display: none;
+  }
+}
+@media screen and (max-width:440px){
+        #Home .content h1{
+            font-size: 28px;
+            line-height: 30px;  
+        }
+        #Home .content{
+            width: 100%;
+            margin: auto;
+        }
+         #Home .content p{
+            text-align: center;
+            width: 100%;
+        }
+         #Home .content .btn{
+            width: 100%;
+        }
+         #Home .active-img{
+   padding: 4px 10px;
+   left: -10px;
+}
+}
+

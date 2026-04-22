@@ -14,9 +14,208 @@
          <!-- link-media-query css -->
           <link rel="stylesheet" href="css/media-query.css">
 </head>
-<body>
-    <!-- start header -->
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- start nav-bar -->
+     <nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container">
+    <a class="navbar-brand" href="#"> <i class="fa-solid fa-gamepad"></i> GameArena</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#OUR-GAMES">OUR GAMES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#What-We-Do">What We Do</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Our-Team">Our Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact-Us">Contact Us</a>
+        </li>
+      
+        
+      </ul>
+      <form class="d-flex align-items-center gap-3" role="search">
+        <i class="fa-regular fa-bell"></i>
+        <i class="fa-regular fa-message"></i>
+        <button class="btn-shine " type="submit">Sign In</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- home -->
+<section id="Home">
+    <div class="container">
+        <div class="row justify-content-center align-items-center ">
+  <div class="col-lg-6  col-12"> 
+    <div class="content">
+         <h1>THE ULTIMATE <span>GAMING</span> EXPERIENCE</h1>
+                <p>Join millions of gamers worldwide in the most competitive eSports tournaments. Experience next-level gaming with cutting-edge technology and endless possibilities.</p>
+                <button class="btn-shine btn">Start Gaming Now</button>
+                <button class="btn-shine btn btn-transparent">Watch Tournaments</button>
+    </div>
+               
+            </div>
+            <div class="col-lg-6  col-12">
+                <div class="img-box position-relative">
+                    <img src="imgs/hero-img.png" class=" " alt="hero-img">
 
+                    <div class="active-img position-absolute d-flex align-items-center gap-3 justify-content-center">
+                        <div class="icon">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="text">
+                            <p>Active Players</p>
+                            <h3>2.5M+</h3>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+          
+        
+    </div>
+</section>
+<!-- OUR GAMES -->
+ <section id="OUR-GAMES">
+    <div class="lines">
+        <p>OUR GAMES</p>
+    </div>
+    <h2>Our Latest Games</h2>
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-lg-4 col-md-6">
+                <div class="game-card position-relative">
+                    <img src="imgs/latest-games-1.png" class=" " alt="latest-games-1">
+                    <div class="game-info  position-absolute">
+                       <div class="btns d-flex  gap-3">
+                        <span class=" btn"><i class="fa-solid fa-gamepad"></i> ADVENTURE</span>
+                        <span class=" btn "><i class="fa-solid fa-users"></i>MULTIPLAYER</span>
+                       </div>
+
+                       <p>Alien Companions</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="game-card position-relative">
+                    <img src="imgs/latest-games-2.png" class=" " alt="latest-games-2">
+                    <div class="game-info  position-absolute">
+                       <div class="btns d-flex  gap-3">
+                        <span class=" btn"><i class="fa-solid fa-flag-checkered"></i> RACING</span>
+                        <span class=" btn "><i class="fa-solid fa-bolt"></i>SCI-FI</span>
+                       </div>
+
+                       <p>Cyber Run 2099</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-lg-4 col-md-6 none">
+                <div class="game-card position-relative">
+                    <img src="imgs/latest-games-3.png" class=" " alt="latest-games-3">
+                    <div class="game-info  position-absolute">
+                       <div class="btns d-flex  gap-3">
+                        <span class=" btn"><i class="fa-brands fa-discord"></i> ACTION</span>
+                        <span class=" btn "><i class="fa-solid fa-microchip"></i>GEFORCE</span>
+                       </div>
+    <p>The Legend of Zelda: Tears of the Kingdom</p>
+                    </div>
+                </div>
+                
+            </div>
+           
+            
+        </div>
+        <button class="btn-shine view-btn">VIEW ALL GAMES</button>
+    </div>
+ </section>
+<!-- WHAT WE DO -->
+<section id="What-We-Do">
+     <div class="lines">
+        <p>WHAT WE DO</p>
+    </div>
+    <h2>More Than Just Games</h2>
+    <h3>We Build <span>Interactive</span> Journeys</h3>
+    <div class="container">
+        <div class="row g-4">
+     <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="shape">
+        <i class="icon fa-solid fa-mobile-screen-button"></i>   
+        <p>PC Game Development</p>    
+
+         <i class="fa-solid fa-caret-left corner top-left"></i>
+  <i class="fa-solid fa-caret-right corner bottom-right"></i>      
+       </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="shape">
+        <i class="icon fa-solid fa-desktop"></i>   
+        <p>Mobile Game
+Development</p>    
+
+         <i class="fa-solid fa-caret-left corner top-left"></i>
+  <i class="fa-solid fa-caret-right corner bottom-right"></i>      
+       </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <img src="imgs/what-we-do-1.png" class="w-100 rounded-4 " alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="shape">
+       <i class=" icon fa-solid fa-vr-cardboard"></i>   
+        <p>AR/VR
+Solutions</p>    
+
+         <i class="fa-solid fa-caret-left corner top-left"></i>
+  <i class="fa-solid fa-caret-right corner bottom-right"></i>      
+       </div>
+            </div>
+             <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="shape">
+        <i class=" icon fa-solid fa-cubes"></i>   
+        <p>AR/VR
+Design</p>    
+
+         <i class="fa-solid fa-caret-left corner top-left"></i>
+  <i class="fa-solid fa-caret-right corner bottom-right"></i>      
+       </div>
+            </div>
+             <div class="col-lg-3 col-md-4 col-sm-6">
+                <img src="imgs/what-we-do-2.png" class="w-100 rounded-4 " alt="">
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="shape">
+        <i class="icon fa-brands fa-playstation"></i>   
+        <p>PS4 Game
+Development</p>    
+
+         <i class="fa-solid fa-caret-left corner top-left"></i>
+  <i class="fa-solid fa-caret-right corner bottom-right"></i>      
+       </div>
+            </div>
+           
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="shape">
+       <i  class="icon fa-solid fa-cube"></i>   
+        <p>3D
+Modelings/p>    
+
+         <i class="fa-solid fa-caret-left corner top-left"></i>
+  <i class="fa-solid fa-caret-right corner bottom-right"></i>      
+       </div>
+            </div>
+        </div>
+    </div>
+</section>
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
